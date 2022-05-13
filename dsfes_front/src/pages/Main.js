@@ -65,9 +65,11 @@ const Main = () => {
           </div>
           <div>
             <p>정지영</p>
-            <p className={style.instagram}><img src={insta}/>youngrong.wrk</p>
+            <p className={style.instagram}>
+              <p className={style.instimg}><img src={insta} alt="인스타그램 로고"/></p>
+              <p className={style.instaID}>youngrong.wrk</p>
+            </p>
           </div>
-
         </div>
       </div>
     </div>
